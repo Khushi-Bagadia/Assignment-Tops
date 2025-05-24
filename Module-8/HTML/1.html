@@ -1,0 +1,243 @@
+<!-- Create a simple HTML webpage that includes:
+o A header (<header>), footer (<footer>), main section (<main>), and aside section
+(<aside>).
+o A paragraph with some basic text.
+o A list (both ordered and unordered).
+o A link that opens in a new tab. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Webpage</title>
+    <style>
+        * 
+        {
+            margin: 0;
+            padding: 0;
+        }
+
+        header 
+        {
+            font-size: 2rem;
+            background-color:bisque;
+            text-align: center;
+            color: black;
+            padding: 2rem;
+        }
+
+        header:hover 
+        {
+            color: blue;
+            box-shadow: 5px 5px 10px rgb(241, 173, 173);
+        }
+
+        body
+        {
+            background-color:slateblue;
+        }
+
+
+        section 
+        {
+            /* border: 2px solid black; */
+            margin: 2%;
+            padding: 2rem;
+            
+        }
+        section p 
+        {
+            font-size: 2rem;
+            color: rgb(248, 244, 244);
+        }
+        b 
+        {
+            color: rgb(190, 184, 184);
+        }
+        section p b:hover 
+        {
+            color: black;
+        }
+        section p u:hover
+        {
+             color: black;
+        }
+
+        strike 
+        {
+            color:blanchedalmond;
+        }
+        strike:hover
+        {
+            color:black;
+        }
+        em:hover
+        {
+            color: black;
+        }
+
+        marquee
+        { 
+            /* border: 2px solid black; */
+            margin-top:2rem;
+            width:50%;
+            margin-left:50rem;
+        }
+        marquee a 
+        {
+            text-decoration: none;
+            font-size: 30px;   
+        }
+        marquee a b
+        {
+            color:greenyellow;
+            text-shadow: 2px 4px green;           
+        }
+        marquee a b:hover
+        {
+            text-decoration: none;
+            
+        }
+
+        h4 
+        {
+            margin-top: 30px;
+            margin-bottom: 10px;
+            font-size: 2.5rem;
+            color:brown;
+        }
+
+        ol 
+        {
+            margin-left: 60px;
+            font-size: 1.4rem;
+            color: bisque;
+        }
+
+        li 
+        {
+            color: rgb(250, 246, 246);
+            margin-top:10px;
+        }
+
+        ul 
+        {
+            margin-left: 60px;
+            font-size: 1.4rem;
+            color:bisque;
+            
+        }
+
+        footer 
+        {
+            background-color:aqua;
+            text-align: center;
+            padding: 3rem;
+            font-size: 2rem;
+            margin-top: 1%;
+        }
+        footer:hover
+        {
+            color:blue;
+        }
+    </style>
+</head>
+
+
+<body>
+    <header>
+        <h1>Welcome To My Webpage</h1>
+    </header>
+
+    
+    <section>
+
+        <p><mark>Lorem ipsum</mark>dolor sit amet consectetur adipisicing elit.<b>Autem aperiam aut</b> quisquam fugit dolore maiores, omnis, voluptatibus est <u>eveniet iure unde eaque vero ipsa sit.</u>  Iste voluptatibus, ipsa tempora sed a et sit.<sup><strike> Ipsa cum sint necessitatibus</strike></sup> perferendis <sub><strike>doloremque fugiat cupiditate qui </strike></sub> laudantium odit, placeat saepe ullam reprehenderit explicabo id ipsam error facere voluptatibus vitae autem voluptates assumenda laborum non. Modi veritatis eveniet adipisci rerum quidem ea aperiam, natus hic, illo expedita ab doloremque. <em>Nam a voluptatum, eaque sit ratione inventore</em> in ducimus debitis sequi id vero temporibus tempore iusto officia, accusamus consequatur animi rerum ipsum aut ut iure repudiandae?</p>
+
+        <marquee behavior="alternate" direction="left" scrollamount="5" width="100%" height="100px"><a href="https://youtu.be/BsDoLVMnmZs?si=8uUY41lFAfT7XOO1" target="_blank"><b>Click Here For More Information</b></a></marquee>
+
+        <h4>Ordered List</h4>
+
+        <ol>
+            <li>Car Showroom</li>
+            <ol type="a">
+                <li>TATA</li>
+                <ol type="i">
+                    <li>Harrier</li>
+                    <li>Nexon</li>
+                </ol>
+                <li>Hyundai</li>
+                <ol type="i">
+                    <li>Creta</li>
+                    <li>i20</li>
+                </ol>
+            </ol>
+
+            <li>Bike Showroom</li>
+            <ol type="a">
+                <li>Honda</li>
+                <ol type="i">
+                    <li>Shine</li>
+                    <li>Livo</li>
+                </ol>
+                <li>Hero</li>
+                <ol type="i">
+                    <li>Splender</li>
+                    <li>Xtreme</li>
+                </ol>
+            </ol>
+            
+            <li>Scooter Showroom</li>
+            <ol type="a">
+                <li>Hero</li>
+                <ol type="i">
+                    <li>Pleasure</li>
+                    <li>Destini</li>
+                </ol>
+                <li>TVS</li>
+                <ol type="i">
+                    <li>Jupiter</li>
+                    <li>iQube</li>
+                </ol>
+            </ol>
+        </ol>
+
+
+        <h4>Unordered List</h4>
+        
+        <ul>
+            <li>TOPS Technologies</li>
+            <ul type="circle">
+                <li>Full Stack Devlopment</li>
+                <ul>
+                    <li>Front-End Coding</li>
+                    <li>Back-End Coding</li>
+                </ul>
+                <li>Graphics Designing</li>
+                <ul>
+                    <li>Illustrator</li>
+                    <li>Figma</li>
+                </ul>
+            </ul>
+
+            <li>Gujarat Technological University (GTU)</li>
+            <ul type="circle">
+                <li>BE / BTech</li>
+                <li>BCA</li>
+                <li>BSC</li>
+                <li>MBA</li>
+                <li>Bpharm</li>
+            </ul>
+        </ul>
+    </section>
+
+
+    <footer>
+        <h5>@copy; 2025 My Webpage. All Rights Reserved</h5>
+    </footer>
+</body>
+
+</html>
