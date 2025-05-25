@@ -1,0 +1,157 @@
+<!-- Create a product catalog table that includes the following columns:
+o Product Name
+o Product Image (use placeholder image URLs)
+o Price
+o Description
+o Availability (in stock, out of stock) 
+o Use thead for the table header.
+o Add a border and some basic styling using inline CSS.
+o Use colspan or rowspan to merge cells where applicable. -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Catalog</title>
+</head>
+
+<style>
+    *
+    {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body
+    {
+        background-color:white;
+        margin: 20px;
+    }
+    thead
+    {
+        background-color:blue;
+        color:yellow;
+    }
+    thead tr th
+    {
+        padding: 3rem;
+        font-size: 2rem;
+    }
+    tbody
+    {
+        color: yellow;
+        background-color: blue;
+        border: 5px solid rgb(190,183,183);
+        font-size: 1.5rem;
+        font-weight:550;
+        text-align: center;
+    }
+    tbody img
+    {
+        height: 170px;
+        width: 150px;
+        margin: 30px;
+        margin-left: 13%;
+    }
+    tbody td p
+    {
+        padding:2rem;
+    }
+</style>
+
+
+<body>
+    <table border="15px">
+        <thead>
+            <tr>
+                <th>Product Number</th>
+                <th>Product Name</th>
+                <th>Product Image</th>
+                <th>Price</th>
+                <th>Description</th>
+                <th>Availability</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Laptop</td>
+                <td><img src="images/1.jpg" alt=""></td>
+                <td>₹45,000</td>
+                <td rowspan="3"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae expedita praesentium officiis perferendis voluptatem quasi cupiditate maiores impedit, voluptates repudiandae.</p></td>
+                <td>In Stock</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Smart Phones</td>
+                <td><img src="images/2.jpg" alt=""></td>
+                <td>₹18,000</td>
+                <td>Out Of Stock</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>LED TV</td>
+                <td><img src="images/3.jpg" alt=""></td>
+                <td>₹30,125</td>
+                <td>In Stock</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Watch</td>
+                <td><img src="images/4.jpg" alt=""></td>
+                <td>₹990</td>
+                <td><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae expedita praesentium officiis perferendis voluptatem quasi cupiditate maiores impedit, voluptates repudiandae.</p></td>
+                <td>Out Of Stock</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Bag</td>
+                <td><img src="images/5.jpg" alt=""></td>
+                <td>₹1050</td>
+                <td><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae expedita praesentium officiis perferendis voluptatem quasi cupiditate maiores impedit, voluptates repudiandae.</p></td>
+                <td rowspan="2">In Stock</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Water Bottel</td>
+                <td><img src="images/6.jpg" alt=""></td>
+                <td>₹251</td>
+                <td><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae expedita praesentium officiis perferendis voluptatem quasi cupiditate maiores impedit, voluptates repudiandae.</p></td>
+                 
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Perfume for <br>men and women</td>
+                <td><img src="images/7.jpg" alt=""></td>
+                <td>₹500</td>
+                <td><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae expedita praesentium officiis perferendis voluptatem quasi cupiditate maiores impedit, voluptates repudiandae.</p></td>
+                <td>In Stock</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Ice-Creams</td>
+                <td><img src="images/8.jpg" alt=""></td>
+                <td>₹60</td>
+                <td><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae expedita praesentium officiis perferendis voluptatem quasi cupiditate maiores impedit, voluptates repudiandae.</p></td>
+                <td>In stock</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Fruits</td>
+                <td><img src="images/9.jpg" alt=""></td>
+                <td>₹100</td>
+                <td><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae expedita praesentium officiis perferendis voluptatem quasi cupiditate maiores impedit, voluptates repudiandae.</p></td>
+                <td>In stock</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+
+
+
+
+
