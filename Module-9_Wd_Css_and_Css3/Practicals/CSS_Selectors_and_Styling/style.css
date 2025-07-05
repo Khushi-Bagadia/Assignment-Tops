@@ -1,0 +1,76 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+body 
+{
+    background :linear-gradient(90deg,rgb(9, 234, 193),rgb(3, 108, 115));
+}
+div
+{
+    /* border:3px solid blue; */
+    border-radius: 75px;
+    padding:80px;
+    margin:400px;
+    width:40%;
+    margin-top:3%;
+    margin-left:25%;
+    margin-bottom:-20%;  
+    background :linear-gradient(90deg,rgb(12, 154, 128),rgb(2, 81, 87));
+}
+div:hover
+{
+    transform:scale(1.1);
+}
+h1
+{
+    /* border:3px solid blue; */
+    text-align: center;
+    font-size: 65px;
+    margin-top:-3rem;
+    margin-bottom:1.5rem;
+ 
+}
+.c1
+{
+    /* border:3px solid blue; */
+    font-size: 40px;
+}
+.c2
+{
+    /* border:3px solid blue; */
+    font-size: 40px;
+}
+#id1
+{
+    /* border:3px solid blue; */
+    font-size: 20px;
+    padding:1rem;
+    margin:1.5rem;
+    border-radius: 20px;
+    border:2px solid black; 
+    width:400px;
+
+}
+#id2
+{
+    /* border:3px solid blue; */
+    font-size:30px;
+    text-align:center;
+    margin-left:15rem;
+    margin-top:2rem;
+    padding:1rem;
+    width:40%;
+    background:linear-gradient(180deg,rgb(13, 233, 192),rgb(1, 77, 83));
+    font-weight:700;
+    border:2px solid black;
+    color:black; 
+}
+#id2:hover
+{
+    transform: scale(1.5);
+    transition:0.5s ease;
+    box-shadow: 2px 9px 15px rgb(170, 209, 212);
+    text-shadow:2px 3px white;
+}
